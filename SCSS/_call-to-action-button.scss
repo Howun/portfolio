@@ -1,5 +1,6 @@
 /* This code is an example of how to make the scroll call to action button */
-.pages .scroll-btn {
+
+ .pages .scroll-btn {
   position: absolute;
   bottom: 20px;
   left: 50%;
@@ -8,20 +9,18 @@
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   color: #fff;
-  font: normal 400 20px/1 "Josefin Sans", sans-serif;
-  letter-spacing: 0.1em;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
   text-decoration: none;
-  transition: opacity 0.3s;
+  transition: opacity .3s;
 }
-
 .pages .scroll-btn:hover {
-  opacity: 0.5;
+  opacity: .5;
 }
 
 #page01 a {
   padding-top: 60px;
 }
-
 #page01 a span {
   position: absolute;
   top: 0;
@@ -39,7 +38,6 @@
 #page02 a {
   padding-top: 60px;
 }
-
 #page02 a span {
   position: absolute;
   top: 0;
@@ -57,7 +55,6 @@
 #page03 a {
   padding-top: 60px;
 }
-
 #page03 a span {
   position: absolute;
   top: 0;
@@ -75,7 +72,6 @@
 #page04 a {
   padding-top: 60px;
 }
-
 #page04 a span {
   position: absolute;
   top: 0;
@@ -93,7 +89,6 @@
 #page05 a {
   padding-top: 60px;
 }
-
 #page05 a span {
   position: absolute;
   top: 0;
