@@ -1,0 +1,19 @@
+#page01 {
+  height: 1024px;
+  background-color: grey;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+#page01 h1 {
+  grid-row: 1/1;
+  grid-column: 1/1;
+  font-size: 75px;
+  justify-self: center;
+}
+#page01 h2 {
+  grid-row: 2/3;
+  grid-column: 1/1;
+  font-size: 50px;
+  justify-self: center;
+}

@@ -1,3 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  padding: 0px;
+  padding-right: 30px;
+}
+
+#logo {
+  display: inline-block;
+  margin-left: 30px;
+  width: auto;
+  height: auto;
+  background-color: grey;
+  text-align: center;
+}
+
+.rightlinks {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.rightlinks a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+#page01 {
+  height: 1024px;
+  background-color: grey;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+#page01 h1 {
+  grid-row: 1/1;
+  grid-column: 1/1;
+  font-size: 75px;
+  justify-self: center;
+}
+#page01 h2 {
+  grid-row: 2/3;
+  grid-column: 1/1;
+  font-size: 50px;
+  justify-self: center;
+}
+#page02 {
+  height: 1024px;
+}
+
+#page03 {
+  height: 1024px;
+}
+
+#page04 {
+  height: 1024px;
+}
+
+#page05 {
+  height: 1024px;
+}
+
+#page06 {
+  height: 1024px;
+}
+
 /* This code is an example of how to make the scroll call to action button */
 .pages .scroll-btn {
   position: absolute;

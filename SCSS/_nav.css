@@ -18,16 +18,14 @@ nav {
   text-align: center;
 }
 
-
 .rightlinks {
   width: 600px;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: space-evenly;
-
-  a {
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-  }
+}
+.rightlinks a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
 }
