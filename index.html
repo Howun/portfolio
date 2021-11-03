@@ -21,91 +21,86 @@
 <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Roboto:wght@100;300;400&family=Trirong:wght@100&family=Zen+Antique+Soft&family=Zen+Kaku+Gothic+Antique:wght@300;400&display=swap" rel="stylesheet">
 </head>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
 <body>
 
 
   <!-- Nav bar here (hopefully should scroll along with page) -->
-  <nav>
-    <div id="logo">
+  <nav class="nav">
+    <div class="nav__logo">
       <img src="http://via.placeholder.com/150x30" alt="logo">
     </div>
-    <div class="rightlinks">
-      <a class="links" href="#page02">About Me</a>
-      <a class="links" href="#page03">Tech Stack</a>
-      <a class="links" href="#page04">Skills</a>
-      <a class="links" href="#page05">Projects</a>
-      <a class="links" href="#page06">Contact</a>
+    <div class="nav__link-container">
+      <a class="nav__link" href="#page02">About Me</a>
+      <a class="nav__link" href="#page03">Tech Stack</a>
+      <a class="nav__link" href="#page04">Skills</a>
+      <a class="nav__link" href="#page05">Projects</a>
+      <a class="nav__link" href="#page06">Contact</a>
     </div>
   </nav>
 
-
   <!-- Section id="page01" is the first page -->
   <section id="page01" class="pages">
-
     <!-- Main page title name and sub title of junior software developer -->
     <h1>Howun Lam</h1>
     <h2>Junior Software Developer</h2>
-
     <!-- Call to action button (scroll down)-->
-    <a class="scroll-btn" id="scroll-btn1" href="#page02">
+    <!-- <a class="scroll-btn" href="#page02">
       <span></span>
       Scroll
-    </a>
-
+    </a> -->
   </section>
 
 
   <!-- Section id="page02" is the second page -->
   <section id="page02" class="pages">
-
     <h2>About Me</h2>
     <p>Hey! My name is Howun and I am a junior software developer</p>
-
     <img src="" alt="Photo of me">
-
     <!-- Call to action button (scroll down)-->
-    <a class="scroll-btn" id="scroll-btn2" href="#page03">
+    <!-- <a class="scroll-btn" id="scroll-btn2" href="#page03">
       <span></span>
       Scroll
-    </a>
-
+    </a> -->
   </section>
 
   <!-- Section id="page03" is the third page -->
   <section id="page03" class="pages">
-
     <h2>Tech Stack</h2>
     <!-- Images/icons showing what languages I know/use to be changed/added -->
-    <img src="http://via.placeholder.com/640x360" alt="icon1">
-    <p>stack1</p>
-    <img src="http://via.placeholder.com/640x360" alt="icon2">
-    <p>stack2</p>
-    <img src="http://via.placeholder.com/640x360" alt="icon3">
-    <p>stack3</p>
-    <img src="http://via.placeholder.com/640x360" alt="icon4">
-    <p>stack4</p>
-    <img src="http://via.placeholder.com/640x360" alt="icon5">
-    <p>stack5</p>
-    <img src="http://via.placeholder.com/640x360" alt="icon6">
-    <p>stack6</p>
-    <img src="http://via.placeholder.com/640x360" alt="icon7">
-    <p>stack7</p>
-    <img src="http://via.placeholder.com/640x360" alt="icon8">
-    <p>stack8</p>
-
+    <div class="techstack-icons">
+      <i class="fab fa-python"></i>
+      <i class="fab fa-github-square"></i>
+      <i class="fab fa-html5"></i>
+      <i class="fab fa-css3-alt"></i>
+      <i class="fab fa-sass"></i>
+      <i class="fab fa-react"></i>
+      <i class="fab fa-git"></i>
+      <i class="fab fa-js-square"></i>
+    </div>
+    <div class="techstack-text">
+      <p>stack1</p>
+      <p>stack2</p>
+      <p>stack3</p>
+      <p>stack4</p>
+      <p>stack5</p>
+      <p>stack6</p>
+      <p>stack7</p>
+      <p>stack8</p>
+    </div>
     <!-- Call to action button (scroll down)-->
-    <a class="scroll-btn" id="scroll-btn3" href="#page04">
+    <!-- <a class="scroll-btn" href="#page04">
       <span></span>
       Scroll
-    </a>
-
+    </a> -->
   </section>
 
   <!-- Section id="page04" is the fourth page -->
   <section id="page04" class="pages">
-
     <h2>My Skills</h2>
-
     <img src="http://via.placeholder.com/640x360" alt="icon1">
     <p>skill1</p>
     <img src="http://via.placeholder.com/640x360" alt="icon2">
@@ -122,38 +117,28 @@
     <p>skill7</p>
     <img src="http://via.placeholder.com/640x360" alt="icon8">
     <p>skill8</p>
-
     <!-- Call to action button (scroll down)-->
-    <a class="scroll-btn" id="scroll-btn4" href="#page05">
+    <!-- <a class="scroll-btn" href="#page05">
       <span></span>
       Scroll
-    </a>
-
+    </a> -->
   </section>
 
 
   <!-- Section id="page05" is the fifth page -->
   <section id="page05" class="pages">
-
     <h2>Projects</h2>
-
     <div class="project-display">
-
       <img src="" alt="gif of project">
-
       <p>Description of project</p>
-
       <div class="tech-stack-icons">
         <img src="http://via.placeholder.com/640x360" alt="icon1">
         <img src="http://via.placeholder.com/640x360" alt="icon2">
         <img src="http://via.placeholder.com/640x360" alt="icon3">
         <img src="http://via.placeholder.com/640x360" alt="icon4">
       </div>
-
       <a href="">Link to project</a>
-
     </div>
-
     <div class="project-selector">
       <img src="http://via.placeholder.com/640x360" alt="project1">
       <p>Project 1</p>
@@ -168,21 +153,18 @@
       <img src="http://via.placeholder.com/640x360" alt="project6">
       <p>Project 6</p>
     </div>
-
-  </section>
-
-  <!-- Call to action button (scroll down)-->
-  <a class="scroll-btn" id="scroll-btn5" href="#page06">
+    <!-- Call to action button (scroll down)-->
+  <!-- <a class="scroll-btn" href="#page06">
     <span></span>
     Scroll
-  </a>
+  </a> -->
+  </section>
+
+  
 
   <section id="page06" class="pages">
-
     <h3>Get in touch:</h3>
-
     <div class="get-in-touch-icons">
-
       <img src="http://via.placeholder.com/640x360" alt="GIT icon 1">
       <p>GIT icon 1</p>
       <img src="http://via.placeholder.com/640x360" alt="GIT icon 2">
@@ -191,11 +173,11 @@
       <p>GIT icon 3</p>
       <img src="http://via.placeholder.com/640x360" alt="GIT icon 4">
       <p>GIT icon 4</p>
-
     </div>
   </section>
 
-
 </body>
+<footer>
+</footer>
 
 </html>

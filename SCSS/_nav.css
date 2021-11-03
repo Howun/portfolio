@@ -1,5 +1,6 @@
-nav {
+.nav {
   height: 50px;
+  width: 100vw;
   background-color: black;
   display: flex;
   justify-content: space-between;
@@ -9,7 +10,7 @@ nav {
   padding-right: 30px;
 }
 
-#logo {
+.logo {
   display: inline-block;
   margin-left: 30px;
   width: auto;
@@ -18,13 +19,13 @@ nav {
   text-align: center;
 }
 
-.rightlinks {
+.nav__link-container {
   width: 600px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-.rightlinks a {
+.nav__link-container a {
   padding: 10px;
   color: white;
   text-decoration: none;
