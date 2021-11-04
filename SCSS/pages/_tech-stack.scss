@@ -1,16 +1,18 @@
-#tech-stack {
+#tech-stack-page {
   font-family: $font-one;
   position: relative;
   height: 100vh;
   background-color: grey;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  border: 2px solid black;
 
+// ICONS AND TEXTS NEED SLIGHT ADJUSTMENT TO MAKE IT LOOK RIGHT
 
  h2 {
-    grid-column: 2/4;
-    grid-row: 1/3;
+    grid-column: 4/8;
+    grid-row: 2/4;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -19,8 +21,8 @@
   }
   
   .fa-python {
-    grid-column: 1/2;
-    grid-row: 3/4;
+    grid-column: 2/4;
+    grid-row: 5/7;
     font-size: 75px;
     display: flex;
     justify-content: center;
@@ -29,8 +31,8 @@
   }
 
   .fa-github-square {
-    grid-column: 2/3;
-    grid-row: 3/4;
+    grid-column: 4/6;
+    grid-row: 5/7;
     font-size: 75px;
     display: flex;
     justify-content: center;
@@ -39,8 +41,8 @@
   }
 
   .fa-html5 {
-    grid-column: 3/4;
-    grid-row: 3/4;
+    grid-column: 6/8;
+    grid-row: 5/7;
     font-size: 75px;
     display: flex;
     justify-content: center;
@@ -49,8 +51,8 @@
   }
 
   .fa-css3-alt {
-    grid-column: 4/5;
-    grid-row: 3/4;
+    grid-column: 8/10;
+    grid-row: 5/7;
     font-size: 75px;
     display: flex;
     justify-content: center;
@@ -59,8 +61,8 @@
   }
 
   .fa-sass {
-    grid-column: 1/2;
-    grid-row: 5/6;
+    grid-column: 2/4;
+    grid-row: 8/10;
     font-size: 75px;
     display: flex;
     justify-content: center;
@@ -69,8 +71,8 @@
   }
 
   .fa-react {
-    grid-column: 2/3;
-    grid-row: 5/6;
+    grid-column: 4/6;
+    grid-row: 8/10;
     font-size: 75px;
     display: flex;
     justify-content: center;
@@ -79,8 +81,8 @@
   }
 
   .fa-git {
-    grid-column: 3/4;
-    grid-row: 5/6;
+    grid-column: 6/8;
+    grid-row: 8/10;
     font-size: 75px;
     display: flex;
     justify-content: center;
@@ -89,8 +91,8 @@
   }
 
   .fa-js-square {
-    grid-column: 4/5;
-    grid-row: 5/6;
+    grid-column: 8/10;
+    grid-row: 8/10;
     font-size: 75px;
     display: flex;
     justify-content: center;
@@ -100,8 +102,8 @@
 
   #text-python {
     font-size: 30px;
-    grid-column: 1/2;
-    grid-row: 4/5;
+    grid-column: 2/4;
+    grid-row: 7/8;
     justify-content: center;
     flex-direction: column;
     justify-self: center;
@@ -109,8 +111,8 @@
 
   #text-github {
     font-size: 30px;
-    grid-column: 2/3;
-    grid-row: 4/5;
+    grid-column: 4/6;
+    grid-row: 7/8;
     justify-content: center;
     flex-direction: column;
     justify-self: center;
@@ -118,8 +120,8 @@
 
   #text-html {
     font-size: 30px;
-    grid-column: 3/4;
-    grid-row: 4/5;
+    grid-column: 6/8;
+    grid-row: 7/8;
     justify-content: center;
     flex-direction: column;
     justify-self: center;
@@ -127,8 +129,8 @@
 
   #text-css {
     font-size: 30px;
-    grid-column: 4/5;
-    grid-row: 4/5;
+    grid-column: 8/10;
+    grid-row: 7/8;
     justify-content: center;
     flex-direction: column;
     justify-self: center;
@@ -136,8 +138,8 @@
 
   #text-scss {
     font-size: 30px;
-    grid-column: 1/2;
-    grid-row: 6/7;
+    grid-column: 2/4;
+    grid-row: 10/11;
     justify-content: center;
     flex-direction: column;
     justify-self: center;
@@ -145,8 +147,8 @@
 
   #text-react {
     font-size: 30px;
-    grid-column: 2/3;
-    grid-row: 6/7;
+    grid-column: 4/6;
+    grid-row: 10/11;
     justify-content: center;
     flex-direction: column;
     justify-self: center;
@@ -154,8 +156,8 @@
 
   #text-git {
     font-size: 30px;
-    grid-column: 3/4;
-    grid-row: 6/7;
+    grid-column: 6/8;
+    grid-row: 10/11;
     justify-content: center;
     flex-direction: column;
     justify-self: center;
@@ -163,8 +165,8 @@
 
   #text-javascript {
     font-size: 30px;
-    grid-column: 4/5;
-    grid-row: 6/7;
+    grid-column: 8/10;
+    grid-row: 10/11;
     justify-content: center;
     flex-direction: column;
     justify-self: center;

@@ -10,12 +10,14 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Trirong:wght@300&family=Zen+Kaku+Gothic+Antique:wght@400;500&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Trirong:wght@300&family=Zen+Kaku+Gothic+Antique:wght@400;500&display=swap"
+    rel="stylesheet">
 </head>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <body>
 
@@ -35,14 +37,14 @@
   </nav>
 
   <!-- Section id="page01" is the first page -->
-  <section id="home" class="pages">
+  <section id="home-page" class="pages home">
 
-    
+
     <!-- Main page title name and sub title of junior software developer -->
-    <h1>Howun Lam</h1>
-    <h2>Junior Software Developer</h2>
+    <h1 class="home__title">Howun Lam</h1>
+    <h2 class="home__job-title">Junior Software Developer</h2>
     <!-- Call to action button (scroll down)-->
-    <a class="scroll-btn" href="#about-me">
+    <a class="scroll-btn" href="#about-me-page">
       <span></span>
       Scroll
     </a>
@@ -50,48 +52,48 @@
 
 
   <!-- Section id="page02" is the second page -->
-  <section id="about-me" class="pages about-me">
+  <section id="about-me-page" class="pages about-me">
     <h2 class="about-me__title">About Me</h2>
-    <p>Hey! My name is Howun and I am a junior software developer</p>
+    <p class="about-me__description">Hey! My name is Howun and I am a junior software developer</p>
     <img src="Photos/DSC_7342.jpg" alt="Photo of me">
     <!-- Call to action button (scroll down)-->
-    <a class="scroll-btn" id="scroll-btn2" href="#tech-stack">
+    <a class="scroll-btn" id="scroll-btn2" href="#tech-stack-page">
       <span></span>
       Scroll
     </a>
   </section>
 
   <!-- Section id="page03" is the third page -->
-  <section id="tech-stack" class="pages">
-    <h2>Tech Stack</h2>
+  <section id="tech-stack-page" class="pages stack">
+    <h2 class="stack__title">Tech Stack</h2>
     <!-- Images/icons showing what languages I know/use to be changed/added -->
- 
-      <i class="fab fa-python"></i>
-      <i class="fab fa-github-square"></i>
-      <i class="fab fa-html5"></i>
-      <i class="fab fa-css3-alt"></i>
-      <i class="fab fa-sass"></i>
-      <i class="fab fa-react"></i>
-      <i class="fab fa-git"></i>
-      <i class="fab fa-js-square"></i>
-      <p id="text-python">Python</p>
-      <p id="text-github">GitHub</p>
-      <p id="text-html">HTML</p>
-      <p id="text-css">CSS</pid>
-      <p id="text-scss">SCSS</p>
-      <p id="text-react">React</p>
-      <p id="text-git">Git</p>
-      <p id="text-javascript">Javascript</p>
+
+    <i class="fab fa-python stack__icon"></i>
+    <i class="fab fa-github-square stack__icon"></i>
+    <i class="fab fa-html5 stack__icon"></i>
+    <i class="fab fa-css3-alt stack__icon"></i>
+    <i class="fab fa-sass stack__icon"></i>
+    <i class="fab fa-react stack__icon"></i>
+    <i class="fab fa-git stack__icon"></i>
+    <i class="fab fa-js-square stack__icon"></i>
+    <p id="text-python" class="stack__icon-txt">Python</p>
+    <p id="text-github" class="stack__icon-txt">GitHub</p>
+    <p id="text-html" class="stack__icon-txt">HTML</p>
+    <p id="text-css" class="stack__icon-txt">CSS</pid>
+    <p id="text-scss" class="stack__icon-txt">SCSS</p>
+    <p id="text-react" class="stack__icon-txt">React</p>
+    <p id="text-git" class="stack__icon-txt">Git</p>
+    <p id="text-javascript" class="stack__icon-txt">Javascript</p>
 
     <!-- Call to action button (scroll down)-->
-    <a class="scroll-btn" href="#skills">
+    <a class="scroll-btn" href="#skills-page">
       <span></span>
       Scroll
     </a>
   </section>
 
   <!-- Section id="page04" is the fourth page -->
-  <section id="skills" class="pages skills">
+  <section id="skills-page" class="pages skills">
     <h2 class="skills__title">My Skills</h2>
     <img class="skills__img1" src="http://via.placeholder.com/300x150" alt="icon1">
     <img class="skills__img2" src="http://via.placeholder.com/300x150" alt="icon2">
@@ -101,16 +103,16 @@
     <img class="skills__img6" src="http://via.placeholder.com/300x150" alt="icon6">
     <img class="skills__img7" src="http://via.placeholder.com/300x150" alt="icon7">
     <img class="skills__img8" src="http://via.placeholder.com/300x150" alt="icon8">
-    <p class="skills__txt1" >skill1</p>
-    <p class="skills__txt2" >skill2</p>
-    <p class="skills__txt3" >skill3</p>
-    <p class="skills__txt4" >skill4</p>
-    <p class="skills__txt5" >skill5</p>
-    <p class="skills__txt6" >skill6</p>
-    <p class="skills__txt7" >skill7</p>
-    <p class="skills__txt8" >skill8</p>
+    <p class="skills__txt1">skill1</p>
+    <p class="skills__txt2">skill2</p>
+    <p class="skills__txt3">skill3</p>
+    <p class="skills__txt4">skill4</p>
+    <p class="skills__txt5">skill5</p>
+    <p class="skills__txt6">skill6</p>
+    <p class="skills__txt7">skill7</p>
+    <p class="skills__txt8">skill8</p>
     <!-- Call to action button (scroll down)-->
-    <a class="scroll-btn" href="#projects">
+    <a class="scroll-btn" href="#projects-page">
       <span></span>
       Scroll
     </a>
@@ -118,10 +120,10 @@
 
 
   <!-- Section id="page05" is the fifth page -->
-  <section id="projects" class="pages project">
+  <section id="projects-page" class="pages project">
     <h2>Projects</h2>
     <div class="project__display">
-      <img class="project__display__main"src="http://via.placeholder.com/300x150" alt="gif of project">
+      <img class="project__display__main" src="http://via.placeholder.com/300x150" alt="gif of project">
       <p class="project__display__description">Description of project</p>
       <div class="project__display__techstack">
         <img src="http://via.placeholder.com/300x150" alt="icon1">
@@ -129,42 +131,42 @@
         <img src="http://via.placeholder.com/300x150" alt="icon3">
         <img src="http://via.placeholder.com/300x150" alt="icon4">
       </div>
-      <a class="project__display__link"href="">Link to project</a>
+      <a class="project__display__link" href="">Link to project</a>
     </div>
-    <div class="project-selector">
-      <img src="http://via.placeholder.com/300x150" alt="project1">
-      <img src="http://via.placeholder.com/300x150" alt="project2">
-      <img src="http://via.placeholder.com/300x150" alt="project3">
-      <img src="http://via.placeholder.com/300x150" alt="project4">
-      <img src="http://via.placeholder.com/300x150" alt="project5">
-      <img src="http://via.placeholder.com/300x150" alt="project6">
-      <p>Project 1</p>
-      <p>Project 2</p>
-      <p>Project 3</p>
-      <p>Project 4</p>
-      <p>Project 5</p>
-      <p>Project 6</p>
+    <div class="project__selector">
+      <img class="project__selector__img" src="http://via.placeholder.com/300x150" alt="project1">
+      <img class="project__selector__img" src="http://via.placeholder.com/300x150" alt="project2">
+      <img class="project__selector__img" src="http://via.placeholder.com/300x150" alt="project3">
+      <img class="project__selector__img" src="http://via.placeholder.com/300x150" alt="project4">
+      <img class="project__selector__img" src="http://via.placeholder.com/300x150" alt="project5">
+      <img class="project__selector__img" src="http://via.placeholder.com/300x150" alt="project6">
+      <p class="project__selector__txt">Project 1</p>
+      <p class="project__selector__txt">Project 2</p>
+      <p class="project__selector__txt">Project 3</p>
+      <p class="project__selector__txt">Project 4</p>
+      <p class="project__selector__txt">Project 5</p>
+      <p class="project__selector__txt">Project 6</p>
     </div>
     <!-- Call to action button (scroll down)-->
-  <a class="scroll-btn" href="#get-in-touch">
-    <span></span>
-    Scroll
-  </a>
+    <a class="scroll-btn" href="#contact-page">
+      <span></span>
+      Scroll
+    </a>
   </section>
 
-  
 
-  <section id="contact" class="pages">
+
+  <section id="contact-page" class="pages contact">
     <h3>Get in touch:</h3>
-    <div class="get-in-touch-icons">
-      <img src="http://via.placeholder.com/300x150" alt="GIT icon 1">
-      <p>GIT icon 1</p>
-      <img src="http://via.placeholder.com/300x150" alt="GIT icon 2">
-      <p>GIT icon 2</p>
-      <img src="http://via.placeholder.com/300x150" alt="GIT icon 3">
-      <p>GIT icon 3</p>
-      <img src="http://via.placeholder.com/300x150" alt="GIT icon 4">
-      <p>GIT icon 4</p>
+    <div class="contact__icon-holder">
+      <img class="contact__icon-holder__icon" src="http://via.placeholder.com/300x150" alt="GIT icon 1">
+      <img class="contact__icon-holder__icon" src="http://via.placeholder.com/300x150" alt="GIT icon 2">
+      <img class="contact__icon-holder__icon" src="http://via.placeholder.com/300x150" alt="GIT icon 3">
+      <img class="contact__icon-holder__icon" src="http://via.placeholder.com/300x150" alt="GIT icon 4">
+      <p class="contact__icon-holder__txt">GIT icon 1</p>
+      <p class="contact__icon-holder__txt">GIT icon 2</p>
+      <p class="contact__icon-holder__txt">GIT icon 3</p>
+      <p class="contact__icon-holder__txt">GIT icon 4</p>
     </div>
   </section>
 

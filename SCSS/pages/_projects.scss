@@ -1,11 +1,11 @@
-#projects {
+#projects-page {
   font-family: $font-one;
   position: relative;
   height: 100vh;
   background-color: grey;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(10, 1fr);
 
   a {
     padding-top: 60px;

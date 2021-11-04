@@ -1,16 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
-
-}
-@import "./SCSS/typography";
-
-@import "./SCSS/nav";
-@import "./SCSS/page01";
-@import "./SCSS/page02";
-@import "./SCSS/page03";
-@import "./SCSS/page04";
-@import "./SCSS/page05";
-@import "./SCSS/page06";
-@import "./SCSS/call-to-action-button";
-@import "./SCSS/footer";
+@import "./SCSS/base/typography";
+@import "./scss/layout/main";
+@import "./SCSS/layout/nav";
+@import "./SCSS/pages/home";
+@import "./SCSS/pages/about";
+@import "./SCSS/pages/tech-stack";
+@import "./SCSS/pages/skills";
+@import "./SCSS/pages/projects";
+@import "./SCSS/pages/contact";
+@import "./SCSS/components/call-to-action-button";
+@import "./SCSS/layout/footer";
