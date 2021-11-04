@@ -1,8 +1,0 @@
-#page05 {
-  position: relative;
-  height: 100vh;
-  background-color: grey;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-}

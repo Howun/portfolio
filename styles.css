@@ -4,6 +4,7 @@
 }
 
 .nav {
+  font-family: "trirong", "sans-serif";
   height: 50px;
   background-color: black;
   display: flex;
@@ -13,8 +14,7 @@
   padding: 0px;
   padding-right: 30px;
 }
-
-.logo {
+.nav .logo {
   display: inline-block;
   margin-left: 30px;
   width: auto;
@@ -22,7 +22,6 @@
   background-color: grey;
   text-align: center;
 }
-
 .nav__link-container {
   width: 600px;
   display: flex;
@@ -35,7 +34,7 @@
   text-decoration: none;
 }
 
-#page01 {
+#home {
   position: relative;
   height: 100vh;
   background-color: grey;
@@ -43,7 +42,10 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
 }
-#page01 h1 {
+#home h1, #home h2 {
+  font-family: "Zen Kaku Gothic Antique", "sans-serif";
+}
+#home h1 {
   height: 100%;
   grid-row: 2/3;
   grid-column: 2/4;
@@ -53,7 +55,7 @@
   justify-content: flex-end;
   flex-direction: column;
 }
-#page01 h2 {
+#home h2 {
   height: 100%;
   grid-row: 3/4;
   grid-column: 2/4;
@@ -63,8 +65,26 @@
   justify-content: center;
   flex-direction: column;
 }
+#home a {
+  padding-top: 60px;
+}
+#home a > span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+  bottom: 20px;
+}
 
-#page02 {
+#about-me {
+  font-family: "Zen Kaku Gothic Antique", "sans-serif";
   position: relative;
   height: 100vh;
   background-color: grey;
@@ -72,7 +92,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
 }
-#page02 h2 {
+#about-me h2 {
   height: 100%;
   grid-column: 1/3;
   grid-row: 2/4;
@@ -82,7 +102,7 @@
   justify-content: center;
   flex-direction: column;
 }
-#page02 p {
+#about-me p {
   height: 100%;
   grid-column: 1/3;
   grid-row: 4/5;
@@ -93,7 +113,7 @@
   display: flex;
   text-align: center;
 }
-#page02 img {
+#about-me img {
   height: 300px;
   grid-column: 3/5;
   grid-row: 2/6;
@@ -103,8 +123,26 @@
   justify-content: center;
   flex-direction: row;
 }
+#about-me a {
+  padding-top: 60px;
+}
+#about-me a > span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+  bottom: 20px;
+}
 
-#page03 {
+#tech-stack {
+  font-family: "Zen Kaku Gothic Antique", "sans-serif";
   position: relative;
   height: 100vh;
   background-color: grey;
@@ -112,7 +150,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
 }
-#page03 h2 {
+#tech-stack h2 {
   grid-column: 2/4;
   grid-row: 1/3;
   display: flex;
@@ -121,7 +159,7 @@
   justify-self: center;
   font-size: 75px;
 }
-#page03 .fa-python {
+#tech-stack .fa-python {
   grid-column: 1/2;
   grid-row: 3/4;
   font-size: 75px;
@@ -130,7 +168,7 @@
   flex-direction: column;
   justify-self: center;
 }
-#page03 .fa-github-square {
+#tech-stack .fa-github-square {
   grid-column: 2/3;
   grid-row: 3/4;
   font-size: 75px;
@@ -139,7 +177,7 @@
   flex-direction: column;
   justify-self: center;
 }
-#page03 .fa-html5 {
+#tech-stack .fa-html5 {
   grid-column: 3/4;
   grid-row: 3/4;
   font-size: 75px;
@@ -148,7 +186,7 @@
   flex-direction: column;
   justify-self: center;
 }
-#page03 .fa-css3-alt {
+#tech-stack .fa-css3-alt {
   grid-column: 4/5;
   grid-row: 3/4;
   font-size: 75px;
@@ -157,7 +195,7 @@
   flex-direction: column;
   justify-self: center;
 }
-#page03 .fa-sass {
+#tech-stack .fa-sass {
   grid-column: 1/2;
   grid-row: 5/6;
   font-size: 75px;
@@ -166,7 +204,7 @@
   flex-direction: column;
   justify-self: center;
 }
-#page03 .fa-react {
+#tech-stack .fa-react {
   grid-column: 2/3;
   grid-row: 5/6;
   font-size: 75px;
@@ -175,7 +213,7 @@
   flex-direction: column;
   justify-self: center;
 }
-#page03 .fa-git {
+#tech-stack .fa-git {
   grid-column: 3/4;
   grid-row: 5/6;
   font-size: 75px;
@@ -184,7 +222,7 @@
   flex-direction: column;
   justify-self: center;
 }
-#page03 .fa-js-square {
+#tech-stack .fa-js-square {
   grid-column: 4/5;
   grid-row: 5/6;
   font-size: 75px;
@@ -193,7 +231,7 @@
   flex-direction: column;
   justify-self: center;
 }
-#page03 #text-python {
+#tech-stack #text-python {
   font-size: 30px;
   grid-column: 1/2;
   grid-row: 4/5;
@@ -201,7 +239,7 @@
   flex-direction: column;
   justify-self: center;
 }
-#page03 #text-github {
+#tech-stack #text-github {
   font-size: 30px;
   grid-column: 2/3;
   grid-row: 4/5;
@@ -209,7 +247,7 @@
   flex-direction: column;
   justify-self: center;
 }
-#page03 #text-html {
+#tech-stack #text-html {
   font-size: 30px;
   grid-column: 3/4;
   grid-row: 4/5;
@@ -217,7 +255,7 @@
   flex-direction: column;
   justify-self: center;
 }
-#page03 #text-css {
+#tech-stack #text-css {
   font-size: 30px;
   grid-column: 4/5;
   grid-row: 4/5;
@@ -225,7 +263,7 @@
   flex-direction: column;
   justify-self: center;
 }
-#page03 #text-scss {
+#tech-stack #text-scss {
   font-size: 30px;
   grid-column: 1/2;
   grid-row: 6/7;
@@ -233,7 +271,7 @@
   flex-direction: column;
   justify-self: center;
 }
-#page03 #text-react {
+#tech-stack #text-react {
   font-size: 30px;
   grid-column: 2/3;
   grid-row: 6/7;
@@ -241,7 +279,7 @@
   flex-direction: column;
   justify-self: center;
 }
-#page03 #text-git {
+#tech-stack #text-git {
   font-size: 30px;
   grid-column: 3/4;
   grid-row: 6/7;
@@ -249,16 +287,34 @@
   flex-direction: column;
   justify-self: center;
 }
-#page03 #text-javascript {
+#tech-stack #text-javascript {
   font-size: 30px;
   grid-column: 4/5;
   grid-row: 6/7;
   justify-content: center;
   flex-direction: column;
   justify-self: center;
+}
+#tech-stack a {
+  padding-top: 60px;
+}
+#tech-stack a > span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+  bottom: 20px;
 }
 
-#page04 {
+#skills {
+  font-family: "Zen Kaku Gothic Antique", "sans-serif";
   position: relative;
   height: 100vh;
   background-color: grey;
@@ -266,7 +322,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
 }
-#page04 h2 {
+#skills h2 {
   grid-column: 2/4;
   grid-row: 1/3;
   display: flex;
@@ -275,8 +331,26 @@
   justify-self: center;
   font-size: 75px;
 }
+#skills a {
+  padding-top: 60px;
+}
+#skills a > span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+  bottom: 20px;
+}
 
-#page05 {
+#projects {
+  font-family: "Zen Kaku Gothic Antique", "sans-serif";
   position: relative;
   height: 100vh;
   background-color: grey;
@@ -284,8 +358,26 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
 }
+#projects a {
+  padding-top: 60px;
+}
+#projects a > span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+  bottom: 20px;
+}
 
-#page06 {
+#contact {
+  font-family: "Zen Kaku Gothic Antique", "sans-serif";
   position: relative;
   height: 100vh;
   background-color: grey;
@@ -298,7 +390,7 @@
 .pages > .scroll-btn {
   position: absolute;
   bottom: 20px;
-  left: 50%;
+  left: 48.8%;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
