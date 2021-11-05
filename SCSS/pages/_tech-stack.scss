@@ -1,16 +1,15 @@
-#tech-stack-page {
+.stack {
   font-family: $font-one;
   position: relative;
   height: 100vh;
-  background-color: grey;
+  background-color: rgba(128, 128, 128, 0.253);
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(12, 1fr);
-  border: 2px solid black;
 
 // ICONS AND TEXTS NEED SLIGHT ADJUSTMENT TO MAKE IT LOOK RIGHT
-
- h2 {
+  
+  &__title {
     grid-column: 4/8;
     grid-row: 2/4;
     display: flex;
@@ -20,9 +19,9 @@
     font-size: 75px;
   }
   
-  .fa-python {
+  &__icon1 {
     grid-column: 2/4;
-    grid-row: 5/7;
+    grid-row: 5/6;
     font-size: 75px;
     display: flex;
     justify-content: center;
@@ -30,9 +29,9 @@
     justify-self: center;
   }
 
-  .fa-github-square {
+  &__icon2 {
     grid-column: 4/6;
-    grid-row: 5/7;
+    grid-row: 5/6;
     font-size: 75px;
     display: flex;
     justify-content: center;
@@ -40,9 +39,9 @@
     justify-self: center;
   }
 
-  .fa-html5 {
+  &__icon3 {
     grid-column: 6/8;
-    grid-row: 5/7;
+    grid-row: 5/6;
     font-size: 75px;
     display: flex;
     justify-content: center;
@@ -50,9 +49,9 @@
     justify-self: center;
   }
 
-  .fa-css3-alt {
+  &__icon4 {
     grid-column: 8/10;
-    grid-row: 5/7;
+    grid-row: 5/6;
     font-size: 75px;
     display: flex;
     justify-content: center;
@@ -60,9 +59,9 @@
     justify-self: center;
   }
 
-  .fa-sass {
+  &__icon5 {
     grid-column: 2/4;
-    grid-row: 8/10;
+    grid-row: 8/9;
     font-size: 75px;
     display: flex;
     justify-content: center;
@@ -70,9 +69,9 @@
     justify-self: center;
   }
 
-  .fa-react {
+  &__icon6 {
     grid-column: 4/6;
-    grid-row: 8/10;
+    grid-row: 8/9;
     font-size: 75px;
     display: flex;
     justify-content: center;
@@ -80,9 +79,9 @@
     justify-self: center;
   }
 
-  .fa-git {
+  &__icon7 {
     grid-column: 6/8;
-    grid-row: 8/10;
+    grid-row: 8/9;
     font-size: 75px;
     display: flex;
     justify-content: center;
@@ -90,9 +89,9 @@
     justify-self: center;
   }
 
-  .fa-js-square {
+  &__icon8 {
     grid-column: 8/10;
-    grid-row: 8/10;
+    grid-row: 8/9;
     font-size: 75px;
     display: flex;
     justify-content: center;
@@ -100,73 +99,72 @@
     justify-self: center;
   }
 
-  #text-python {
-    font-size: 30px;
-    grid-column: 2/4;
-    grid-row: 7/8;
-    justify-content: center;
-    flex-direction: column;
-    justify-self: center;
-  }
-
-  #text-github {
-    font-size: 30px;
-    grid-column: 4/6;
-    grid-row: 7/8;
-    justify-content: center;
-    flex-direction: column;
-    justify-self: center;
-  }
-
-  #text-html {
-    font-size: 30px;
-    grid-column: 6/8;
-    grid-row: 7/8;
-    justify-content: center;
-    flex-direction: column;
-    justify-self: center;
-  }
-
-  #text-css {
-    font-size: 30px;
-    grid-column: 8/10;
-    grid-row: 7/8;
-    justify-content: center;
-    flex-direction: column;
-    justify-self: center;
-  }
-
-  #text-scss {
+  &__icon-txt1 {
     font-size: 30px;
     grid-column: 2/4;
-    grid-row: 10/11;
+    grid-row: 6/7;
     justify-content: center;
     flex-direction: column;
     justify-self: center;
   }
 
-  #text-react {
+  &__icon-txt2 {
     font-size: 30px;
     grid-column: 4/6;
-    grid-row: 10/11;
+    grid-row: 6/7;
     justify-content: center;
     flex-direction: column;
     justify-self: center;
   }
 
-  #text-git {
+  &__icon-txt3 {
     font-size: 30px;
     grid-column: 6/8;
-    grid-row: 10/11;
+    grid-row: 6/7;
     justify-content: center;
     flex-direction: column;
     justify-self: center;
   }
 
-  #text-javascript {
+  &__icon-txt4 {
     font-size: 30px;
     grid-column: 8/10;
-    grid-row: 10/11;
+    grid-row: 6/7;
+    justify-content: center;
+    flex-direction: column;
+    justify-self: center;
+  }
+  &__icon-txt5 {
+    font-size: 30px;
+    grid-column: 2/4;
+    grid-row: 9/10;
+    justify-content: center;
+    flex-direction: column;
+    justify-self: center;
+  }
+
+  &__icon-txt6 {
+    font-size: 30px;
+    grid-column: 4/6;
+    grid-row: 9/10;
+    justify-content: center;
+    flex-direction: column;
+    justify-self: center;
+  }
+
+  &__icon-txt7 {
+    font-size: 30px;
+    grid-column: 6/8;
+    grid-row: 9/10;
+    justify-content: center;
+    flex-direction: column;
+    justify-self: center;
+  }
+
+  &__icon-txt8 {
+    font-size: 30px;
+    grid-column: 8/10;
+    grid-row: 9/10;
     justify-content: center;
     flex-direction: column;
     justify-self: center;
