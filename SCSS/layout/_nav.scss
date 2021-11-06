@@ -22,13 +22,13 @@
 }
 
 
-&__link-container {
+&__container {
   width: 600px;
   display:flex;
   align-items: center;
   justify-content: space-evenly;
 
-  a {
+  &__link {
     padding: 10px;
     color: white;
     text-decoration: none;

@@ -2,27 +2,155 @@
   font-family: $font-one;
   position: relative;
   height: 100vh;
-  background-color: rgba(128, 128, 128, 0.253);
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(10, 1fr);
+  background-color: #46454b;
 
-  a {
-    padding-top: 60px;
-    
-    & > span {
-      position: absolute;
-      top: 0;
-      left: 50%;
-      width: 24px;
-      height: 24px;
-      margin-left: -12px;
-      border-left: 1px solid #fff;
-      border-bottom: 1px solid #fff;
-      -webkit-transform: rotate(-45deg);
-      transform: rotate(-45deg);
-      box-sizing: border-box;
-      bottom: 20px;
+  .project {
+
+    &__title {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      font-size: 75px;
     }
-  }
+
+    &__display {
+      border: 2px solid whitesmoke;
+      border-radius: 10px;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      height: 40%;
+      margin-left: 300px;
+      margin-right: 300px;
+      padding-left: 50px;
+      padding-right: 50px;
+
+      &__main {
+        border: 2px solid red;
+        grid-column: 1/4;
+        grid-row: 1/7;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        font-size: 75px;
+      }
+
+      &__description {
+        margin-top: 10px;
+        border: 2px solid whitesmoke;
+        grid-column: 4/7;
+        grid-row: 1/4;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+      }
+
+      &__techstack {
+
+        grid-column: 4/7;
+        grid-row: 4/5;
+        display: flex;
+        align-self: center;
+        justify-content: space-evenly;
+
+      }
+
+      &__link {
+        // border: 2px solid whitesmoke;
+        grid-column: 4/7;
+        grid-row: 6/7;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+      }
+
+    }
+
+    &__selector {
+      margin-top: 10px;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      height: 150px;
+
+      &__img1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+      }
+
+      &__img2 {
+        
+      }
+
+      &__img3 {
+        
+      }
+
+      &__img4 {
+        
+      }
+
+      &__img5 {
+        
+      }
+
+      &__img6 {
+        
+      }
+
+      &__txt1 {
+
+      }
+
+      &__txt2 {
+
+      }
+
+      &__txt3 {
+
+      }
+
+      &__txt4 {
+
+      }
+
+      &__txt5 {
+
+      }
+
+      &__txt6 {
+
+    }
+      
+
+    }
+
+
+
+
+
+
+
+
+    a {
+      padding-top: 60px;
+      
+      & > span {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 24px;
+        height: 24px;
+        margin-left: -12px;
+        border-left: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        box-sizing: border-box;
+        bottom: 20px;
+      }
+    }
+}
+
 }
