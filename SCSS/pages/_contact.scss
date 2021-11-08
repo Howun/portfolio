@@ -3,7 +3,81 @@
   position: relative;
   height: 100vh;
   background-color: #46454b;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+
+  .contact {
+
+    &__title {
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+      font-size: 75px;
+    }
+
+    &__icon-holder {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-left: 25%;
+      margin-right: 25%;
+      width: 50%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      
+
+
+      &__icon1{
+        display: flex;
+        align-self: center;
+        justify-self: center;
+      }
+
+      &__icon2{
+        display: flex;
+        align-self: center;
+        justify-self: center;
+      }
+
+      &__icon3{
+        display: flex;
+        align-self: center;
+        justify-self: center;
+      }
+
+      &__icon4{
+        display: flex;
+        align-self: center;
+        justify-self: center;
+      }
+
+      &__txt1 {
+        display: flex;
+        align-self: center;
+        justify-self: center;
+      }
+
+      &__txt2 {
+        display: flex;
+        align-self: center;
+        justify-self: center;
+      }
+
+      &__txt3 {
+        display: flex;
+        align-self: center;
+        justify-self: center;
+      }
+
+      &__txt4 {
+        display: flex;
+        align-self: center;
+        justify-self: center;
+      }
+      
+
+
+
+    }
+
+  }
+
 }
