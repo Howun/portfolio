@@ -54,11 +54,6 @@ body {
   grid-template-rows: repeat(4, 1fr);
   background-color: rgba(128, 128, 128, 0.253);
 }
-@media screen and (min-width: 800px) {
-  #home-page #home-page {
-    margin: 1em 2em;
-  }
-}
 #home-page h1, #home-page h2 {
   font-family: "Zen Kaku Gothic Antique", "sans-serif";
 }
@@ -69,8 +64,9 @@ body {
   font-size: 75px;
   justify-self: center;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
 #home-page h2 {
   height: 100%;
@@ -126,15 +122,15 @@ body {
   grid-row: 4/5;
   justify-self: center;
   font-size: 50px;
-  margin-left: 200px;
-  margin-right: 200px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
 }
 #about-me-page img {
-  height: 600px;
+  width: 50%;
   grid-column: 3/5;
-  grid-row: 2/6;
+  grid-row: 4/5;
   justify-self: center;
   border-radius: 25px;
   display: flex;
@@ -487,11 +483,16 @@ body {
   position: relative;
   height: 100vh;
   background-color: #46454b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #projects-page .project__title {
   display: flex;
   justify-content: center;
   padding-top: 10px;
+  padding-bottom: 20px;
   font-size: 75px;
 }
 #projects-page .project__display {
@@ -501,8 +502,7 @@ body {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
   height: 50%;
-  margin-left: 300px;
-  margin-right: 300px;
+  width: 80%;
   padding-left: 30px;
   padding-right: 30px;
   overflow: hidden;
@@ -555,10 +555,10 @@ body {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 1fr);
   height: 150px;
-  margin-left: 300px;
-  margin-right: 300px;
+  width: 80%;
   padding-top: 15px;
-  min-width: 561px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 #projects-page .project__selector__img1 {
   grid-column: 1/2;
@@ -657,6 +657,10 @@ body {
   position: relative;
   height: 100vh;
   background-color: #46454b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #contact-page .contact__title {
   display: flex;

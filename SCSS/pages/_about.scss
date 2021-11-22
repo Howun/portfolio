@@ -24,18 +24,19 @@
     grid-row: 4/5;
     justify-self: center;
     font-size: 50px;
-    margin-left: 200px;    
-    margin-right: 200px; 
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
   }
 
 
   // Still need to make image align center on rows
   img { 
-    height:600px;
+    // height:600px;
+    width: 50%;
     grid-column: 3/5;
-    grid-row: 2/6;
+    grid-row: 4/5;
     justify-self: center;
     border-radius: 25px;
     display: flex;
