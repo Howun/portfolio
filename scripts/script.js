@@ -22,7 +22,7 @@ projectOneBtn.addEventListener("click", () => {
 });
 
 projectTwoBtn.addEventListener("click", () => {
-
+//add when new projects to push into portfolio
 });
 
 projectThreeBtn.addEventListener("click", () => {
