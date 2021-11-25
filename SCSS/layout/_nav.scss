@@ -1,7 +1,8 @@
 .nav {
   font-family: $font-two;
   height: 50px;
-  // position: fixed;
+  position: fixed;
+  width: 100%;
   top: 0;
   background-color: black;
   display: flex;
@@ -11,6 +12,7 @@
   padding: 0px;
   padding-right: 30px;
   overflow: hidden;
+  z-index: 10;
 
 .logo {
   display: inline-block;
