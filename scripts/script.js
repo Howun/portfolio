@@ -12,7 +12,7 @@ let projectLink = document.querySelector(".project__display__link");
 
 projectOneBtn.addEventListener("click", () => {
   projectDisplay.innerHTML = `<img class="project__display__main" src="./IMG/Tic-tac-toe.jpg" alt="Tic-Tac-Toe"></img>
-  <p class="project__display__description">This project is the first JavaScript project.</p>
+  <p class="project__display__description">This project is the first JavaScript project. Making Tic-Tac-Toe</p>
       <div class="project__display__techStack">
       <i class="fab fa-sass skills__icon5"></i>
       <i class="fab fa-css3-alt skills__icon4"></i>
@@ -22,7 +22,14 @@ projectOneBtn.addEventListener("click", () => {
 });
 
 projectTwoBtn.addEventListener("click", () => {
-//add when new projects to push into portfolio
+  projectDisplay.innerHTML = `<img class="project__display__main" src="./IMG/GIFS/Beer-API.gif" alt="Tic-Tac-Toe"></img>
+  <p class="project__display__description">This project is the first JavaScript project. Making Tic-Tac-Toe</p>
+      <div class="project__display__techStack">
+      <i class="fab fa-sass skills__icon5"></i>
+      <i class="fab fa-css3-alt skills__icon4"></i>
+      <i class="fab fa-html5 skills__icon3"></i>
+      </div>
+      <a class="project__display__link" href="https://howun.github.io/Tic-Tac-Toe/" target="_blank">Link to project</a>`
 });
 
 projectThreeBtn.addEventListener("click", () => {

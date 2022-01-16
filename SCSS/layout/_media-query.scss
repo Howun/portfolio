@@ -1,5 +1,56 @@
-@media only screen and (max-width: 600px) {
-  * {
-    background-color: lightblue;
+@media only screen and (max-width: 1024px) {
+  #home-page {
+    h1{
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 2.25rem;
+    }
   }
+}
+
+@media only screen and (max-width: 640px) {
+
+  .nav {
+  //   &__container {
+  //   position: fixed;
+  //   inset: 0 0 0 30%;
+  //   background: hsl(0 0 0 / 0.75);
+  //   flex-direction: column;
+  //   justify-content: start;
+  //   text-align: left;
+  //   flex-wrap: wrap;
+  //   align-content: flex-start;
+  //   padding-left: 10vw;
+  //   padding-top: 5vh;
+  //   gap: 2em;
+  // }
+
+  // @supports (backdrop-filter: blur(2rem)) {
+  //   &__container {
+  //     background: hsl(0 0 100% / 0.1);
+  //     backdrop-filter: blur(2rem);
+  //   }
+  // }
+}
+
+
+  #home-page {
+    h1{
+      font-size: 1rem;
+    }
+    h2 {
+      font-size: 0.95rem;
+    }
+  }
+
+  // #about-me-page {
+  //   h2 {
+  //     font-size: 2rem;
+  //   }
+  // }
+
+
+
+
 }

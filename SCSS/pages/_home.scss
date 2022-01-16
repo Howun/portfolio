@@ -6,11 +6,11 @@
   grid-template-rows: repeat(4, 1fr);
   background-color: rgba(128, 128, 128, 0.253);
     
-  // @media screen and (min-width: 800px) {
-  //   #home-page {
-  //     margin: 1em 2em;
-  //   }
-  // }
+  .logo {
+    height: 50px;
+    z-index: 11;
+
+  }
   
   h1, h2 {
     font-family: $font-one;

@@ -2,38 +2,30 @@
   font-family: $font-two;
   height: 50px;
   position: fixed;
-  width: 100%;
+  width: 100vw;
+  max-width: 100vw;
   top: 0;
-  background-color: black;
+  right: 0;
+  background: hsl(0 0 0 / 0.75);
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: space-evenly;
   gap: 100px;
-  padding: 0px;
-  padding-right: 30px;
   overflow: hidden;
   z-index: 10;
 
-.logo {
-  display: inline-block;
-  margin-left: 30px;
-  width: auto;
-  height: auto;
-  background-color: grey;
-  text-align: center;
-}
-
-
-&__container {
-  width: 600px;
-  display:flex;
-  align-items: center;
-  justify-content: space-evenly;
-
-  &__link {
-    padding: 10px;
-    color: white;
-    text-decoration: none;
+  
+  
+  &__container {
+    width: 600px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    &__link {
+      padding: 10px;
+      color: white;
+      text-decoration: none;
+    }
   }
-}
 }

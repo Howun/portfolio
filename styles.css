@@ -17,25 +17,17 @@ body {
   font-family: "trirong", "sans-serif";
   height: 50px;
   position: fixed;
-  width: 100%;
+  width: 100vw;
+  max-width: 100vw;
   top: 0;
-  background-color: black;
+  right: 0;
+  background: rgba(0, 0, 0, 0.75);
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: space-evenly;
   gap: 100px;
-  padding: 0px;
-  padding-right: 30px;
   overflow: hidden;
   z-index: 10;
-}
-.nav .logo {
-  display: inline-block;
-  margin-left: 30px;
-  width: auto;
-  height: auto;
-  background-color: grey;
-  text-align: center;
 }
 .nav__container {
   width: 600px;
@@ -56,6 +48,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
   background-color: rgba(128, 128, 128, 0.253);
+}
+#home-page .logo {
+  height: 50px;
+  z-index: 11;
 }
 #home-page h1, #home-page h2 {
   font-family: "Zen Kaku Gothic Antique", "sans-serif";
@@ -104,6 +100,7 @@ body {
   font-family: "Zen Kaku Gothic Antique", "sans-serif";
   position: relative;
   height: 100vh;
+  max-height: 100vh;
   background-color: rgba(128, 128, 128, 0.253);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -682,6 +679,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
 }
 #contact-page .contact__icon-holder__icon1 {
   display: flex;
@@ -752,8 +750,19 @@ body {
   font-family: "Zen Kaku Gothic Antique", "sans-serif";
 }
 
-@media only screen and (max-width: 600px) {
-  * {
-    background-color: lightblue;
+@media only screen and (max-width: 1024px) {
+  #home-page h1 {
+    font-size: 3rem;
+  }
+  #home-page h2 {
+    font-size: 2.25rem;
+  }
+}
+@media only screen and (max-width: 640px) {
+  #home-page h1 {
+    font-size: 1rem;
+  }
+  #home-page h2 {
+    font-size: 0.95rem;
   }
 }
