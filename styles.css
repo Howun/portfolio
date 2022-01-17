@@ -8,9 +8,10 @@ body {
   background-image: url(./IMG/DSC_2348.jpg);
   background-repeat: no-repeat;
   background-attachment: local;
-  background-size: auto 2900px;
+  background-size: auto 3000px;
   background-position-x: center;
   z-index: 0;
+  width: 100vw;
 }
 
 .nav {
@@ -44,6 +45,7 @@ body {
 #home-page {
   position: relative;
   height: 100vh;
+  width: 100vw;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -105,6 +107,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
+  width: 100vw;
 }
 #about-me-page h2 {
   height: 100%;
@@ -167,6 +170,7 @@ body {
   font-family: "Zen Kaku Gothic Antique", "sans-serif";
   position: relative;
   height: 100vh;
+  width: 100vw;
   background-color: rgba(128, 128, 128, 0.253);
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -340,6 +344,7 @@ body {
   font-family: "Zen Kaku Gothic Antique", "sans-serif";
   position: relative;
   height: 100vh;
+  width: 100vw;
   background-color: #46454b;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -484,11 +489,13 @@ body {
   font-family: "Zen Kaku Gothic Antique", "sans-serif";
   position: relative;
   height: 100vh;
+  width: 100vw;
   background-color: #46454b;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 #projects-page .project__title {
   display: flex;
@@ -658,6 +665,7 @@ body {
   font-family: "Zen Kaku Gothic Antique", "sans-serif";
   position: relative;
   height: 100vh;
+  width: 100vw;
   background-color: #46454b;
   display: flex;
   flex-direction: column;
