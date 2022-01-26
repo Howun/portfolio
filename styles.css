@@ -533,6 +533,7 @@ body {
   display: flex;
   align-self: center;
   justify-self: center;
+  text-align: center;
   width: 100%;
   min-height: 50%;
   max-height: 80%;

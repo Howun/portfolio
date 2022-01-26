@@ -34,16 +34,41 @@ projectTwoBtn.addEventListener("click", () => {
       <i class="fab fa-sass skills__icon5" alt= "SASS" title="SASS"></i>
       <i class="fab fa-css3-alt skills__icon4" alt="CSS" title="CSS"></i>
       <i class="fab fa-html5 skills__icon3" alt="HTML" title="HTML"></i>
+      <i class = "fab fa-react skills__icon6"></i>
       </div>
       <a class="project__display__link" href="https://howun.github.io/Tic-Tac-Toe/" target="_blank">Link to project</a>`
 });
 
 projectThreeBtn.addEventListener("click", () => {
-
+  projectDisplay.innerHTML =
+    `<img class="project__display__main"
+     src="./IMG/GIFS/Calculator.gif"
+     alt="Tic-Tac-Toe"></img>
+     <p class="project__display__description">
+     Calculator project
+     </p>
+     <div class="project__display__techStack">
+     <i class="fab fa-sass skills__icon5" alt="SASS" title="SASS"></i>
+      <i class="fab fa-css3-alt skills__icon4" alt="CSS" title="CSS"></i>
+      <i class="fab fa-html5 skills__icon3" alt="HTML" title="HTML"></i>
+     </div>
+     <a class="project__display__link" href="https://howun.github.io/Tic-Tac-Toe/" target="_blank">Link to project</a>`
 });
 
 projectFourBtn.addEventListener("click", () => {
-
+  projectDisplay.innerHTML =
+    `<img class="project__display__main"
+     src="./IMG/GIFS/Ticket-Tracker.gif"
+     alt="Tic-Tac-Toe"></img>
+     <p class="project__display__description">
+     Calculator project
+     </p>
+     <div class="project__display__techStack">
+     <i class="fab fa-sass skills__icon5" alt="SASS" title="SASS"></i>
+      <i class="fab fa-css3-alt skills__icon4" alt="CSS" title="CSS"></i>
+      <i class="fab fa-html5 skills__icon3" alt="HTML" title="HTML"></i>
+     </div>
+     <a class="project__display__link" href="https://howun.github.io/Tic-Tac-Toe/" target="_blank">Link to project</a>`
 });
 
 projectFiveBtn.addEventListener("click", () => {
